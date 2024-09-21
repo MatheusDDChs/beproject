@@ -1,4 +1,6 @@
+@charset "UTF-8";
 .header {
+    margin-inline: 7rem;
     display: flex;
     justify-content: space-around;
     padding-inline: 1.25rem;
@@ -30,9 +32,15 @@
     color: inherit;
     font-weight: 300;
     align-items: center;
+    text-decoration: none;
+}
+
+.nav__login a {
+    text-decoration: none;
 }
 
 .login__log {
+    color: #f3f3f3;
     border-color: inherit;
     border-radius: 0.4em;
     border: solid #f3f3f3 2px;
