@@ -1,3 +1,5 @@
+/* LINHA DO TOPO */
+
 .line {
     margin-block: 2.5rem;
     height: 2px;
@@ -5,17 +7,17 @@
     margin-trim: auto;
 }
 
+
+/* INFO (PAI DE TODOS) */
+
 .info {
     padding-block: 2rem;
     max-width: 1280px;
     margin-inline: auto;
 }
 
-.item {
-    flex: 1;
-    min-width: 150px;
-}
 
+/* PAI DOS ITEMS 1M+ 200+ ETC */
 .items-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +26,14 @@
     padding-block: 1rem;
 }
 
+/* 200+ E DESCRIÇÃO */
+.item {
+    flex: 1;
+    min-width: 150px;
+    margin: 0.75rem;
+}
+
+/* 200+ */
 .item__title {
     font-size: 2.5rem;
     font-weight: 500;
@@ -31,12 +41,15 @@
     text-align: center;
 }
 
+/* + DE 200 MILHOES E ETC */
 .item__description {
     color: rgba(255, 255, 255, 0.699);
     text-transform: uppercase;
     text-align: center;
 }
 
+
+/* 2 PARTE DA INFO */
 
 .info-wrapper {
     margin-block: 4rem;
@@ -45,13 +58,16 @@
     padding-inline: 1.25rem;
     gap: 1.5rem;
 }
+
 .info__left {
     flex: 1;
 }
 
 .info__left img {
-
+    background-color: rgba(220, 20, 60, 0);
 }
+
+/* INFO RIGHT TEXTOS */
 
 .info__right {
     flex: 1;
@@ -63,14 +79,14 @@
     font-weight: 300;
     letter-spacing: 0.15em;
 }
-.secton_title {
+.secton__title {
     font-size: 2.5rem;
     letter-spacing: -0.025em;
     font-weight: 500;
     line-height: 1.2;
 }
 .section__description{ 
-    columns: rgba(255, 255, 255, 0.699);
+    color: rgba(255, 255, 255, 0.699);
     line-height: calc(1em + 0.7rem);
     margin-block: 1rem;
 }
@@ -82,4 +98,20 @@
     padding: 0.5em 2em;
     background-image: linear-gradient(to right, #FA5030, #F514F0);
     color: #f3f3f3;
+}
+
+@media (widht < 1028px) {
+    .info-wrapper {
+        flex-direction: column;
+    }
+
+    .section__description {
+        width: 50ch;
+    }
+}
+
+@media (width < 475px) {
+    .secton_title {
+        font-size: 2rem;
+    }
 }
