@@ -1,0 +1,24 @@
+.info2 {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.info2-wrapper {
+    display: flex;
+    align-items: center; /* se você quiser que os itens fiquem alinhados verticalmente */
+}
+
+.info2-flex1 {
+    flex: 1;
+}
+
+.info2__img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.info2 .section__description {
+    max-width: 100%;
+}
