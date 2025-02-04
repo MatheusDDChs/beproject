@@ -52,3 +52,26 @@
     margin-block: 1rem;
     font-weight: 300;
 }
+
+
+@media screen and (max-width: 475px) {
+    .feature__card-tittle {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .feature__card-description {
+        color: rgba(255, 255, 255, 0.699);
+        line-height: calc(1em + 0.7rem);
+        margin-block: 1rem;
+        font-weight: 400;
+        font-size: 1.25;
+    }
+
+    .feature__card-img {
+        width: 6rem;
+        position: absolute;
+        top: -3rem;
+        left: 2rem;
+    }
+}

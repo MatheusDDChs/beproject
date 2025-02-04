@@ -92,4 +92,14 @@ align-items: center;
     .hero__img {
         max-width: 70vw;
     }
+
+    .hero__description {
+        opacity: 0.8;
+        font-size: 1.25em;
+        font-weight: 400;
+        line-height: calc(1em + 0.5rem);
+        padding: 0.5em;
+        margin-block: 1rem;
+        max-width: 60ch;
+    }
 }
