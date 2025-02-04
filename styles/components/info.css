@@ -14,7 +14,6 @@
     padding-block: 2rem;
     max-width: 1280px;
     margin-inline: auto;
-
 }
 
 
@@ -105,7 +104,7 @@
     color: #f3f3f3;
 }
 
-@media (width < 1028px) {
+@media (min-width: 1028px) {
     .info-wrapper {
         flex-direction: column;
     }
@@ -115,13 +114,20 @@
     }
 }
 
-@media (width < 475px) and (width > 1028px) {
+@media (min-width: 475px) and (max-width: 1028px) {
     .secton_title {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 475px) {
+    .secton__title {
+        font-size: 8vw;
+        letter-spacing: -0.025em;
+        font-weight: 500;
+        line-height: 1;
+    }
+
     .info__left img {
         background-color: rgba(220, 20, 60, 0);
         max-width: 90vw;
@@ -134,4 +140,12 @@
         display: flex;
         flex-direction: column;
     }
+
+    .section__description{ 
+        
+        color: rgba(255, 255, 255, 0.699);
+        line-height: calc(1em + 0.7rem);
+        margin-block: 1rem;
+    }
 }
+
