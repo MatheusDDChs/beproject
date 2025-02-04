@@ -74,24 +74,27 @@
 .info__right {
     flex: 1;
 }
-
+/* Conceito base */
 .section__cap {
     color: #EBA430;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 0.15em;
 }
+/* Jogo de coleta NFT e autobatalha */
 .secton__title {
     font-size: 2.5rem;
     letter-spacing: -0.025em;
     font-weight: 500;
     line-height: 1.2;
 }
+/* Descubra mais de 200+ artefatos mágicos, */
 .section__description{ 
     color: rgba(255, 255, 255, 0.699);
     line-height: calc(1em + 0.7rem);
     margin-block: 1rem;
 }
+/* Descubra */
 .section__button{
     margin-inline: 0.5rem;
     border-radius: 5px;
@@ -121,7 +124,7 @@
 @media screen and (max-width: 475px) {
     .info__left img {
         background-color: rgba(220, 20, 60, 0);
-        max-width: 30vw;
+        max-width: 90vw;
     }
 
     .info {
